@@ -1,0 +1,19 @@
+language : cpp
+dist: trusty
+env:
+  - DISPLAY=:99.0 
+addons:
+  apt:
+    packages:
+    - valgrind
+compiler:
+  - gcc
+before_install:
+    - (cd logger;npm install)
+    - sh -e /etc/init.d/xvfb start
+script:
+    - git clone https://github.com/benlau/qtbugstatus.git
+    - cd qtbugstatus
+    - npm install
+    - mocha runner.js
+    - ls 
