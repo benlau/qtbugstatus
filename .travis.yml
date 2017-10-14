@@ -1,0 +1,18 @@
+language : node
+dist: trusty
+env:
+  - DISPLAY=:99.0
+addons:
+  apt:
+    packages:
+    - valgrind
+compiler:
+  - gcc
+before_install:
+    - npm install
+script:
+    - npm run test
+    - npm run report
+    - ls allure-result
+    - ls allure-report
+

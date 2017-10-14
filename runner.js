@@ -23,7 +23,21 @@ before(function() {
                 return;
             }
 
-            console.log(res);
+            for (var i in res) {
+                (function(suite) {
+                    console.log(suite.name, suite);
+                    describe(suite.name, function() {
+                        for (var j in suite.tests) {
+                            (function (test) {
+                                it(test.name, function() {
+                                   expect(test.pass).to.equal(true); 
+                                });                                
+                            })(suite.tests[j]);
+                        }                        
+                    });
+                })(res[i].data);
+            }
+            
             resolve();
         });
     });
@@ -31,29 +45,5 @@ before(function() {
     return promise;
 });
 
-
-describe("simple test demo 2", () => {
-  // Example of step definition. `allure.createStep` wraps any function and then every
-  // call of it will be recorded and displayed in report.
-  const testStep = allure.createStep("initial", () => {
-    // do something
-  });
-  // If step will throw an exception or return a rejected promise, it will be marked as broken
-  // in the report, and also  will fail the test
-  const stepToBreak = allure.createStep("break test", () => {
-    throw new Error("Make test broken");
-  });
-
-  it("simple passed test", () => {
-    testStep();
-  });
-
-  it("test with step", () => {
-    testStep();
-    stepToBreak();
-  });
-
-  it("failed test", () => {
-    expect(false).to.equal(true);
-  });
+it("dummy", function() {
 });
