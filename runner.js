@@ -6,8 +6,7 @@ var Hubdb = require("hubdb");
 const path = require("path");
 var shell = require("shelljs");
 
-console.log(__dirname + "/data/*.json");
-var content = shell.ls(process.cwd() + "/*.json").map((file) => { 
+var content = shell.ls(__dirname + "/data/*.json").map((file) => { 
     return JSON.parse(shell.cat(file).toString());
 });
 
