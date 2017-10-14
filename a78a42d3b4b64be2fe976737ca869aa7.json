@@ -1,1 +1,0 @@
-{"name":"Qt 5.10","version":"5.10.0-201710060715","tests":[{"name":"QRedux","pass":true},{"name":"AsyncFuture","pass":true},{"name":"QuickFlux","pass":true},{"name":"SparkQML","pass":true},{"name":"QTBUG-62666","pass":true}]}

@@ -17,6 +17,7 @@ script:
     - ls qtbugstatus/data
     - cd qtbugstatus
     - npm install
+    - mocha runner.js
     - mocha --reporter mocha-allure-reporter runner.js
     - allure generate allure-results --clean -o allure-report
     - ls
