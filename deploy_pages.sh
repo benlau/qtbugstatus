@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
-REPO=$(git config remote.origin.url)
+REPO=git@github.com:benlau/qtbugstatus.git
 
 if [ -f .git ]
 then
