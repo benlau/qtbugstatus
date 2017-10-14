@@ -10,6 +10,8 @@ before_install:
     - chmod 0600 deploy_key
 script:
     - git clone --depth=1 https://github.com/benlau/qtbugstatus.git
+    - mkdir -p qtbugstatus/data
+    - ls qtbugstatus/data
     - cp *.json qtbugstatus/data
     - cd qtbugstatus
     - npm install
