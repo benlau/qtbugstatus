@@ -9,9 +9,9 @@ before_install:
     - openssl aes-256-cbc -K $encrypted_4a400f0ecbf0_key -iv $encrypted_4a400f0ecbf0_iv -in deploy_key.enc -out deploy_key -d
     - chmod 0600 deploy_key
 script:
-    - git clone https://github.com/benlau/qtbugstatus.git
+    - git clone --depth=1 https://github.com/benlau/qtbugstatus.git
     - (cd qtbugstatus; npm install)
-    - mocha --reporter mocha-allure-reporter runner.js
+    - mocha --reporter mocha-allure-reporter qtbugstatus/runner.js
     - allure generate allure-results --clean -o allure-report
     - ls
     - eval `ssh-agent -s`
