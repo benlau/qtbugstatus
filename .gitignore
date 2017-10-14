@@ -60,3 +60,4 @@ typings/
 allure-results
 allure-report
 *.swp
+data/
