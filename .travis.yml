@@ -13,10 +13,10 @@ script:
     - cp *.json qtbugstatus/data
     - cd qtbugstatus
     - npm install
-    - mocha --reporter mocha-allure-reporter qtbugstatus/runner.js
+    - mocha --reporter mocha-allure-reporter runner.js
     - allure generate allure-results --clean -o allure-report
     - ls
     - eval `ssh-agent -s`
     - ssh-add deploy_key
-    - (cd allure-report; bash ../qtbugstatus/deploy_pages.sh)
+    - (cd allure-report; bash ../deploy_pages.sh)
     
