@@ -16,7 +16,9 @@ for (var i in content) {
             for (var j in suite.tests) {
                 (function (test) {
                     it(test.name, function() {
-                        throw(test.reason);
+                        if (!test.pass) {
+                            throw(test.reason ? test.reason : "Error");
+                        }
                     });                                
                 })(suite.tests[j]);
             }                        
