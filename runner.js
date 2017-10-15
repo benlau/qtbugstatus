@@ -16,7 +16,7 @@ for (var i in content) {
             for (var j in suite.tests) {
                 (function (test) {
                     it(test.name, function() {
-                       expect(test.pass).to.equal(true); 
+                        throw(test.reason);
                     });                                
                 })(suite.tests[j]);
             }                        
