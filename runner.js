@@ -1,6 +1,6 @@
 require("mocha-allure-reporter");
 
-const { expect } = require("chai");
+const { expect,assert } = require("chai");
 var Promise = require('promise');
 var Hubdb = require("hubdb");
 const path = require("path");
@@ -17,7 +17,7 @@ for (var i in content) {
                 (function (test) {
                     it(test.name, function() {
                         if (!test.pass) {
-                            throw(test.reason ? test.reason : "Error");
+                            assert.fail(false, true,test.reason ? test.reason : "Error");
                         }
                     });                                
                 })(suite.tests[j]);
