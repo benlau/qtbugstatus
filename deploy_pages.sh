@@ -15,6 +15,7 @@ git init
 # files present with the commit message "Deploy to GitHub Pages".
 git add .
 git commit --author="Ben Lau <xbenlau@gmail.com>"  -m "Deploy to GitHub Pages"
+git --no-pager log
 
 # Force push from the current repo's master branch to the remote
 # repo's gh-pages branch. (All previous history on the gh-pages branch
