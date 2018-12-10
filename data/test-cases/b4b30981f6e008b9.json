@@ -1,0 +1,51 @@
+{
+  "uid" : "b4b30981f6e008b9",
+  "name" : "QTBUG-62666- JS  operator leads to segfaults on garbage collecton",
+  "fullName" : "Qt 5.9.2.QTBUG-62666- JS  operator leads to segfaults on garbage collecton",
+  "historyId" : "fb88816c100dee6b74dacb5d8502c9a2",
+  "time" : {
+    "start" : 1544430429014,
+    "stop" : 1544430429014,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target executable: qtbug-62666\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.2, Qt 5.9.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::QtBug62666::initTestCase()\n                QDEBUG : example::QtBug62666::test_case1() qml: case1\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4922 Segmentation fault      (core dumped) ./$TARGET\n                ",
+  "statusTrace" : "AssertionError: Target executable: qtbug-62666\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.2, Qt 5.9.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::QtBug62666::initTestCase()\n                QDEBUG : example::QtBug62666::test_case1() qml: case1\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4922 Segmentation fault      (core dumped) ./$TARGET\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-62666- JS  operator leads to segfaults on garbage collecton"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b4b30981f6e008b9.json",
+  "parameterValues" : [ ]
+}

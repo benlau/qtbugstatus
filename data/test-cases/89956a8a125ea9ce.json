@@ -1,0 +1,45 @@
+{
+  "uid" : "89956a8a125ea9ce",
+  "name" : "QTBUG-56935  QQmlEngine crashing when trying to clear the component cache ",
+  "fullName" : "Qt 5.11.QTBUG-56935  QQmlEngine crashing when trying to clear the component cache ",
+  "historyId" : "5072178792bbc839beb8e6c4f61f9b12",
+  "time" : {
+    "start" : 1544430428973,
+    "stop" : 1544430428973,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-56935  QQmlEngine crashing when trying to clear the component cache "
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89956a8a125ea9ce.json",
+  "parameterValues" : [ ]
+}

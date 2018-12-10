@@ -1,0 +1,45 @@
+{
+  "uid" : "1a7fd6721359a32a",
+  "name" : "QTBUG-57640",
+  "fullName" : "Qt 5.9.0.QTBUG-57640",
+  "historyId" : "c723eb354ba39aef3ebf3e911a8cce5e",
+  "time" : {
+    "start" : 1544430429027,
+    "stop" : 1544430429027,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-57640"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a7fd6721359a32a.json",
+  "parameterValues" : [ ]
+}

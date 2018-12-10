@@ -1,0 +1,51 @@
+{
+  "uid" : "a24be995aa94e6e0",
+  "name" : "QTBUG-57640 - Crash on loading Javascript file",
+  "fullName" : "Qt 5.7.QTBUG-57640 - Crash on loading Javascript file",
+  "historyId" : "8698f7182cd5ec83c06bdbb8f2f63a9f",
+  "time" : {
+    "start" : 1544430429002,
+    "stop" : 1544430429002,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target executable: qtbug-57640\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4628 Segmentation fault      (core dumped) ./$TARGET\n                ",
+  "statusTrace" : "AssertionError: Target executable: qtbug-57640\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4628 Segmentation fault      (core dumped) ./$TARGET\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-57640 - Crash on loading Javascript file"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a24be995aa94e6e0.json",
+  "parameterValues" : [ ]
+}

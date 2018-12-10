@@ -1,0 +1,51 @@
+{
+  "uid" : "e0700f54d15d7162",
+  "name" : "QTBUG-66875 - Cant acquire semaphore in the function called by QtConcurrent::map",
+  "fullName" : "Qt 5.12.0.QTBUG-66875 - Cant acquire semaphore in the function called by QtConcurrent::map",
+  "historyId" : "36f627eea1fd783a5d43c7dba7e193c2",
+  "time" : {
+    "start" : 1544430428959,
+    "stop" : 1544430428959,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "cat: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro: No such file or directory\n                Target executable: \n                Cannot find file: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro.\n                ",
+  "statusTrace" : "AssertionError: cat: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro: No such file or directory\n                Target executable: \n                Cannot find file: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro.\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-66875 - Cant acquire semaphore in the function called by QtConcurrent::map"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e0700f54d15d7162.json",
+  "parameterValues" : [ ]
+}

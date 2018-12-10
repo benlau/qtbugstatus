@@ -1,0 +1,51 @@
+{
+  "uid" : "7cc504d9e050b55c",
+  "name" : "QTBUG-57545",
+  "fullName" : "Qt 5.9.0.QTBUG-57545",
+  "historyId" : "927723df4129c9f24a0920037c0e60b2",
+  "time" : {
+    "start" : 1544430429027,
+    "stop" : 1544430429027,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.0, Qt 5.9.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 1ms\n                ********* Finished testing of example *********\n                ",
+  "statusTrace" : "AssertionError: Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.0, Qt 5.9.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 1ms\n                ********* Finished testing of example *********\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-57545"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.9.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7cc504d9e050b55c.json",
+  "parameterValues" : [ ]
+}

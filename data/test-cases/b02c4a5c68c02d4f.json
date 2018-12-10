@@ -1,0 +1,45 @@
+{
+  "uid" : "b02c4a5c68c02d4f",
+  "name" : "QRedux",
+  "fullName" : "Qt 5.11.QRedux",
+  "historyId" : "a1ebd86e1778c40833f367f46d524a41",
+  "time" : {
+    "start" : 1544430428974,
+    "stop" : 1544430428974,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "testMethod",
+    "value" : "QRedux"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.11"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b02c4a5c68c02d4f.json",
+  "parameterValues" : [ ]
+}

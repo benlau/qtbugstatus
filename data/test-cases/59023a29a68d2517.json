@@ -1,0 +1,51 @@
+{
+  "uid" : "59023a29a68d2517",
+  "name" : "Library - SnapshotTesting",
+  "fullName" : "Qt 5.10.Library - SnapshotTesting",
+  "historyId" : "d246fb1dfa645acb96fee94150560beb",
+  "time" : {
+    "start" : 1544430428941,
+    "stop" : 1544430428942,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.21\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                Build Completed\n                ********* Start testing of Testcases *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : Testcases::initTestCase()\n                PASS   : Testcases::test_obtainQmlPackage()\n                PASS   : Testcases::test_obtainDynamicDefaultValues()\n                PASS   : Testcases::test_classNameToComponentName()\n                PASS   : Testcases::test_context()\n                PASS   : Testcases::test_loading_config()\n                \n                ========= Received signal, dumping stack ==============\n                ========= End of stack trace ==============\n                QFATAL : Testcases::test_grabImage() Test function timed out\n                FAIL!  : Testcases::test_grabImage() Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 6 passed, 1 failed, 0 skipped, 0 blacklisted, 300057ms\n                ********* Finished testing of Testcases *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  6828 Aborted                 (core dumped) ./$TARGET\n                ",
+  "statusTrace" : "AssertionError: INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.21\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                Build Completed\n                ********* Start testing of Testcases *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : Testcases::initTestCase()\n                PASS   : Testcases::test_obtainQmlPackage()\n                PASS   : Testcases::test_obtainDynamicDefaultValues()\n                PASS   : Testcases::test_classNameToComponentName()\n                PASS   : Testcases::test_context()\n                PASS   : Testcases::test_loading_config()\n                \n                ========= Received signal, dumping stack ==============\n                ========= End of stack trace ==============\n                QFATAL : Testcases::test_grabImage() Test function timed out\n                FAIL!  : Testcases::test_grabImage() Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 6 passed, 1 failed, 0 skipped, 0 blacklisted, 300057ms\n                ********* Finished testing of Testcases *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  6828 Aborted                 (core dumped) ./$TARGET\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testMethod",
+    "value" : "Library - SnapshotTesting"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "59023a29a68d2517.json",
+  "parameterValues" : [ ]
+}

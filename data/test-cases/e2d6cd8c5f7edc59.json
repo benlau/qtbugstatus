@@ -1,0 +1,51 @@
+{
+  "uid" : "e2d6cd8c5f7edc59",
+  "name" : "QRedux",
+  "fullName" : "Qt 5.12.0.QRedux",
+  "historyId" : "cb3d356bdb96666fbd8fedf3a10bfa26",
+  "time" : {
+    "start" : 1544430428959,
+    "stop" : 1544430428960,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.12\n                Target executable: qreduxtests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+  "statusTrace" : "AssertionError: INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.12\n                Target executable: qreduxtests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QRedux"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e2d6cd8c5f7edc59.json",
+  "parameterValues" : [ ]
+}

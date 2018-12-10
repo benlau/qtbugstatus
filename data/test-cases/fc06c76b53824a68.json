@@ -1,0 +1,45 @@
+{
+  "uid" : "fc06c76b53824a68",
+  "name" : "QuickFlux",
+  "fullName" : "Qt 5.10.QuickFlux",
+  "historyId" : "4e794d1bdc91cd4526dc4d26b9b8dd79",
+  "time" : {
+    "start" : 1544430428940,
+    "stop" : 1544430428940,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testMethod",
+    "value" : "QuickFlux"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc06c76b53824a68.json",
+  "parameterValues" : [ ]
+}

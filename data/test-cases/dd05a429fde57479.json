@@ -1,0 +1,45 @@
+{
+  "uid" : "dd05a429fde57479",
+  "name" : "QTBUG-57640 - Crash on loading Javascript file",
+  "fullName" : "Qt 5.9.2.QTBUG-57640 - Crash on loading Javascript file",
+  "historyId" : "d4778f41109dbbef1cdc9fba30853417",
+  "time" : {
+    "start" : 1544430429014,
+    "stop" : 1544430429014,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-57640 - Crash on loading Javascript file"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd05a429fde57479.json",
+  "parameterValues" : [ ]
+}

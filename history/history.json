@@ -1,0 +1,1156 @@
+{
+  "f61d5ceab3c7f6db801a2b706cc1ebe8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adfabf326e31790b",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.21\n                Installing com.github.benlau.qtshell@0.4.3\n                Target executable: quickfluxunittests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: Enable -Werror\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../quickflux/tests/quickfluxunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: error: missing initializer for member QCborError::c [-Werror=missing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../quickflux/tests/quickfluxunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                cc1plus: all warnings being treated as errors\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428961,
+        "stop" : 1544430428962,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9dcad170c1c92f3537fd82727185f677" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9419c54b83866edd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428940,
+        "duration" : 0
+      }
+    } ]
+  },
+  "73b828b6dafe37fe84b73169aa58062f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77d6a24089e6ed7b",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                Start watchdog\n                Timeout. Watchdog kill current process\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4711 Killed                  ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429011,
+        "stop" : 1544430429011,
+        "duration" : 0
+      }
+    } ]
+  },
+  "56130b2c0c056dd2c91b7ea588acb4e4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87c42e507737b96e",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.19\n                Installing com.github.benlau.qtshell@0.4.5\n                Target executable: asyncfutureunittests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of AsyncFutureTests *********\n                Config: Using QtTest library 5.11.0, Qt 5.11.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : AsyncFutureTests::initTestCase()\n                PASS   : AsyncFutureTests::test_QFuture_cancel()\n                PASS   : AsyncFutureTests::test_QFuture_isResultReadyAt()\n                PASS   : AsyncFutureTests::test_QFutureWatcher_in_thread()\n                PASS   : AsyncFutureTests::test_QtConcurrent_exception()\n                XFAIL  : AsyncFutureTests::test_QtConcurrent_map() It is not possible to pause the execution of QtConcurrent::map\n                   Loc: [../asyncfuture/tests/asyncfutureunittests/asyncfuturetests.cpp(221)]\n                \n                ========= Received signal, dumping stack ==============\n                ========= End of stack trace ==============\n                QFATAL : AsyncFutureTests::test_QtConcurrent_map() Test function timed out\n                FAIL!  : AsyncFutureTests::test_QtConcurrent_map() Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 5 passed, 1 failed, 0 skipped, 0 blacklisted, 301155ms\n                ********* Finished testing of AsyncFutureTests *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  5554 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430428974,
+        "stop" : 1544430428975,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c5711172f7afdbbcc52396ff8529ab4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51b506b10cd1d327",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.22\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing async.future.pri@0.3.6.5\n                Installing net.efever.aconcurrent@0.1.14\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../snapshottesting/tests/snapshottestingunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../snapshottesting/tests/snapshottestingunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428964,
+        "stop" : 1544430428965,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a79782ff5e9d53e33060c9b9a41d5ca9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e985fbd989f27e0",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package net.efever.xbacktrace has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.19\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing net.efever.xbacktrace@0.0.1\n                Target executable: asyncfutureunittests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../asyncfuture/tests/asyncfutureunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: error: missing initializer for member QCborError::c [-Werror=missing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../asyncfuture/tests/asyncfutureunittests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                cc1plus: all warnings being treated as errors\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428960,
+        "stop" : 1544430428961,
+        "duration" : 1
+      }
+    } ]
+  },
+  "dfa44b02366273b86c252492321d0c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86e9c7fdb278989f",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-travis'\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.11.0, Qt 5.11.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 8ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430428973,
+        "stop" : 1544430428973,
+        "duration" : 0
+      }
+    } ]
+  },
+  "335f002619b230176afdedeb42908e3f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94ef89e951ef29d1",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2017/11/13 12:41:55 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.10.0/gcc_64/include/QtCore/QtCore:4:0,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/privateapitests.cpp:1:\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp: In member function void PrivateApiTests::test_QQmlMetaType():\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:996:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:1004:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp:24:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                make: *** [privateapitests.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428941,
+        "duration" : 1
+      }
+    } ]
+  },
+  "59c5e8df3660edf3c796cd1094a33f65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c23eaca06d9afc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428940,
+        "duration" : 0
+      }
+    } ]
+  },
+  "659205f66a1040f05de521a767f9640e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66ed439a48e65ecc",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-56935\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                This plugin does not support createPlatformOpenGLContext!\n                Failed to create OpenGL context for format QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::SwapBehavior(DoubleBuffer), swapInterval 1, profile  QSurfaceFormat::OpenGLContextProfile(NoProfile)) \n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4793 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429011,
+        "stop" : 1544430429013,
+        "duration" : 2
+      }
+    } ]
+  },
+  "4e794d1bdc91cd4526dc4d26b9b8dd79" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc06c76b53824a68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428940,
+        "duration" : 0
+      }
+    } ]
+  },
+  "36f627eea1fd783a5d43c7dba7e193c2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0700f54d15d7162",
+      "status" : "failed",
+      "statusDetails" : "cat: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro: No such file or directory\n                Target executable: \n                Cannot find file: /home/travis/build/benlau/qtreleasetests/qtbug-66875/qtbug-66875.pro.\n                ",
+      "time" : {
+        "start" : 1544430428959,
+        "stop" : 1544430428959,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f9a9b96634f3212514edfaf966508b62" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2ad8071740f13d5",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.22\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing async.future.pri@0.3.6.5\n                Installing net.efever.aconcurrent@0.1.14\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../snapshottesting/tests/snapshottestingunittests/vendor/com/github/benlau/testable/automator.cpp:29:13: warning: bool hasMethods(QObject*, QStringList) defined but not used [-Wunused-function]\n                 static bool hasMethods(QObject* object, QStringList filters) {\n                             ^\n                ../snapshottesting/tests/snapshottestingunittests/vendor/com/github/benlau/testable/automator.cpp:73:13: warning: void invokeTestableCase(QQmlEngine*, QObject*, QStringList) defined but not used [-Wunused-function]\n                 static void invokeTestableCase(QQmlEngine* engine, QObject* object, QStringList filters) {\n                             ^\n                Build Completed\n                QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-travis'\n                file:///home/travis/build/benlau/qtreleasetests/Qt/5.11.0/gcc_64/qml/QtQuick/Controls/Private/Style.qml:52: ReferenceError: __control is not defined\n                file:///home/travis/build/benlau/qtreleasetests/Qt/5.11.0/gcc_64/qml/QtQuick/Controls/Styles/Base/RadioButtonStyle.qml:79: ReferenceError: __control is not defined\n                ********* Start testing of Testcases *********\n                Config: Using QtTest library 5.11.0, Qt 5.11.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : Testcases::initTestCase()\n                PASS   : Testcases::test_obtainQmlPackage()\n                PASS   : Testcases::test_obtainDynamicDefaultValues()\n                PASS   : Testcases::test_classNameToComponentName()\n                QDEBUG : Testcases::test_context() CustomButton (\"file:///home/travis/build/benlau/qtreleasetests/Qt/5.11.0/gcc_64/qml/QtQuick/Controls.2/Button.qml\", \"file:///home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml\")\n                PASS   : Testcases::test_context()\n                PASS   : Testcases::test_loading_config()\n                QDEBUG : Testcases::test_grabImage() Skip this test in CI environment\n                PASS   : Testcases::test_grabImage()\n                QDEBUG : Testcases::test_ScreenshotBrowser() matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_ScreenshotBrowser() @@ -10,22 +10,16 @@\n                         id: singleImage\n                         width: 640\n                         height: 480\n                -        imageHeight: 240\n                -        imageWidth: 320\n                +        imageHeight: 0\n                +        imageWidth: 0\n                         \n                -        sourceSize: Qt.size(320,240)\n                +        sourceSize: Qt.size(0,0)\n                 \n                         Image {\n                             id: image\n                -            x: 160\n                -            y: 120\n                -            width: 320\n                -            height: 240\n                -            implicitHeight: 240\n                -            implicitWidth: 320\n                -            progress: 1\n                +            x: 320\n                +            y: 240\n                             \n                -            sourceSize: Qt.size(320,240)\n                         }\n                     }\n                 }\n                \n                FAIL!  : Testcases::test_ScreenshotBrowser() 'SnapshotTesting::matchStoredSnapshot(function + \"_Single\", snapshot)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(420)]\n                PASS   : Testcases::test_convertToPackageNotation()\n                PASS   : Testcases::test_replaceLines()\n                PASS   : Testcases::test_qml_loading(Matcher.qml)\n                PASS   : Testcases::test_qml_loading(MatcherContentView.qml)\n                PASS   : Testcases::test_qml_loading(ScaleToFitImage.qml)\n                PASS   : Testcases::test_qml_loading(ScreenshotBrowser.qml)\n                PASS   : Testcases::test_isIgnoredProperty()\n                QDEBUG : Testcases::test_SnapshotTesting_diff() @@ -1,3 +1,3 @@\n                 A\n                -B\n                +D\n                 C\n                \n                PASS   : Testcases::test_SnapshotTesting_diff()\n                PASS   : Testcases::test_SnapshotTesting_saveSnapshots()\n                QDEBUG : Testcases::test_SnapshotTesting_addSystemIgnoreRule() \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_addSystemIgnoreRule() matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_addSystemIgnoreRule() @@ -30,6 +30,15 @@\n                         height: 10\n                         font.pixelSize: 20\n                         font.pointSize: -1\n                +        fontInfo: {\n                +                      \"bold\": false,\n                +                      \"family\": \"\",\n                +                      \"italic\": false,\n                +                      \"pixelSize\": -1,\n                +                      \"pointSize\": -0.72,\n                +                      \"styleName\": \"\",\n                +                      \"weight\": 50\n                +                  }\n                     }\n                 \n                     Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_addSystemIgnoreRule() 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(619)]\n                QDEBUG : Testcases::test_SnapshotTesting_capture_QObject() SnapshotTesting::capture(): The capture target is not visible\n                PASS   : Testcases::test_SnapshotTesting_capture_QObject()\n                QDEBUG : Testcases::test_SnapshotTesting_capture_RadioButton() \"Non-supported type:  from QtObject of __cycleStatesHandler field\"\n                QDEBUG : Testcases::test_SnapshotTesting_capture_RadioButton() \"Item {\\n\\n    FocusScope { // RadioButton\\n        activeFocusOnPress: false\\n        activeFocusOnTab: true\\n        checked: false\\n        hovered: false\\n        pressed: false\\n        text: \\\"\\\"\\n        tooltip: \\\"\\\"\\n    }\\n}\"\n                QDEBUG : Testcases::test_SnapshotTesting_capture_RadioButton() AbstractCheckable_QMLTYPE_147(0x1799b60, parent=0x0, geometry=0,0 23x17) AbstractCheckable_QMLTYPE_147\n                QDEBUG : Testcases::test_SnapshotTesting_capture_RadioButton() QQuickFocusScope\n                QDEBUG : Testcases::test_SnapshotTesting_capture_RadioButton() \"Non-supported type:  from QtObject of __cycleStatesHandler field\"\n                PASS   : Testcases::test_SnapshotTesting_capture_RadioButton()\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) @@ -30,6 +30,15 @@\n                         height: 10\n                         font.pixelSize: 20\n                         font.pointSize: -1\n                +        fontInfo: {\n                +                      \"bold\": false,\n                +                      \"family\": \"\",\n                +                      \"italic\": false,\n                +                      \"pixelSize\": -1,\n                +                      \"pointSize\": -0.72,\n                +                      \"styleName\": \"\",\n                +                      \"weight\": 50\n                +                  }\n                     }\n                 \n                     Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(712)]\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample3.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5Form.ui.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample6.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample7.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample8.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample9.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml) \"Non-supported type:  from QtObject of __cycleStatesHandler field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Layout.qml)\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_CTX_new\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_CTX_free\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_CTX_set_ssl_ctx\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_CTX_set_flags\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_CTX_finish\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CONF_cmd\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_set_alpn_protos\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_CTX_set_alpn_select_cb\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) qt.network.ssl: QSslSocket: cannot resolve SSL_get0_alpn_selected\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_QJSValue.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) @@ -30,6 +30,15 @@\n                         height: 10\n                         font.pixelSize: 20\n                         font.pointSize: -1\n                +        fontInfo: {\n                +                      \"bold\": false,\n                +                      \"family\": \"\",\n                +                      \"italic\": false,\n                +                      \"pixelSize\": -1,\n                +                      \"pointSize\": -0.72,\n                +                      \"styleName\": \"\",\n                +                      \"weight\": 50\n                +                  }\n                     }\n                 \n                     Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(742)]\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml) @@ -35,6 +35,15 @@\n                             height: 10\n                             font.pixelSize: 20\n                             font.pointSize: -1\n                +            fontInfo: {\n                +                          \"bold\": false,\n                +                          \"family\": \"\",\n                +                          \"italic\": false,\n                +                          \"pixelSize\": -1,\n                +                          \"pointSize\": -0.72,\n                +                          \"styleName\": \"\",\n                +                          \"weight\": 50\n                +                      }\n                         }\n                 \n                         Image {\n                @@ -108,6 +117,15 @@\n                             height: 10\n                             font.pixelSize: 20\n                             font.pointSize: -1\n                +            fontInfo: {\n                +                          \"bold\": false,\n                +                          \"family\": \"\",\n                +                          \"italic\": false,\n                +                          \"pixelSize\": -1,\n                +                          \"pointSize\": -0.72,\n                +                          \"styleName\": \"\",\n                +                          \"weight\": 50\n                +                      }\n                         }\n                 \n                         Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(742)]\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample3.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) @@ -34,6 +34,15 @@\n                             height: 10\n                             font.pixelSize: 20\n                             font.pointSize: -1\n                +            fontInfo: {\n                +                          \"bold\": false,\n                +                          \"family\": \"\",\n                +                          \"italic\": false,\n                +                          \"pixelSize\": -1,\n                +                          \"pointSize\": -0.72,\n                +                          \"styleName\": \"\",\n                +                          \"weight\": 50\n                +                      }\n                         }\n                 \n                         Image {\n                @@ -107,6 +116,15 @@\n                                     height: 10\n                                     font.pixelSize: 20\n                                     font.pointSize: -1\n                +                    fontInfo: {\n                +                                  \"bold\": false,\n                +                                  \"family\": \"\",\n                +                                  \"italic\": false,\n                +                                  \"pixelSize\": -1,\n                +                                  \"pointSize\": -0.72,\n                +                                  \"styleName\": \"\",\n                +                                  \"weight\": 50\n                +                              }\n                                 }\n                 \n                                 Image {\n                @@ -180,6 +198,15 @@\n                                     height: 10\n                                     font.pixelSize: 20\n                                     font.pointSize: -1\n                +                    fontInfo: {\n                +                                  \"bold\": false,\n                +                                  \"family\": \"\",\n                +                                  \"italic\": false,\n                +                                  \"pixelSize\": -1,\n                +                                  \"pointSize\": -0.72,\n                +                                  \"styleName\": \"\",\n                +                                  \"weight\": 50\n                +                              }\n                                 }\n                 \n                                 Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(742)]\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5Form.ui.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample6.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample7.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample8.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample9.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml) \"Non-supported type:  from QtObject of __cycleStatesHandler field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Layout.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) @@ -45,6 +45,15 @@\n                                 height: 10\n                                 font.pixelSize: 20\n                                 font.pointSize: -1\n                +                fontInfo: {\n                +                              \"bold\": false,\n                +                              \"family\": \"\",\n                +                              \"italic\": false,\n                +                              \"pixelSize\": -1,\n                +                              \"pointSize\": -0.72,\n                +                              \"styleName\": \"\",\n                +                              \"weight\": 50\n                +                          }\n                             }\n                 \n                             Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(742)]\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_expandAll(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_QJSValue.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) matchStoredSnapshot: The snapshot is different:\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) @@ -25,6 +25,15 @@\n                         height: 10\n                         font.pixelSize: 20\n                         font.pointSize: -1\n                +        fontInfo: {\n                +                      \"bold\": false,\n                +                      \"family\": \"\",\n                +                      \"italic\": false,\n                +                      \"pixelSize\": -1,\n                +                      \"pointSize\": -0.72,\n                +                      \"styleName\": \"\",\n                +                      \"weight\": 50\n                +                  }\n                     }\n                 \n                     Image {\n                \n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample1.qml) 'SnapshotTesting::matchStoredSnapshot(name, text)' returned FALSE. ()\n                   Loc: [../snapshottesting/tests/snapshottestingunittests/testcases.cpp(772)]\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample2.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample3.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample4.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample5Form.ui.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample6.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample7.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample8.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample9.qml)\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml) \"Non-supported type:  from QtObject of __cycleStatesHandler field\"\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Control1.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Layout.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_Loader_Async.qml)\n                PASS   : Testcases::test_SnapshotTesting_matchStoredSnapshot_hideId(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/Sample_QJSValue.qml)\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot_screenshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) This plugin does not support createPlatformOpenGLContext!\n                QWARN  : Testcases::test_SnapshotTesting_matchStoredSnapshot_screenshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) QQuickRenderControl::initialize called with incorrect current context\n                QDEBUG : Testcases::test_SnapshotTesting_matchStoredSnapshot_screenshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) \"Non-supported type: QQuickIcon from QtObject of icon field\"\n                \n                ========= Received signal, dumping stack ==============\n                ========= End of stack trace ==============\n                QFATAL : Testcases::test_SnapshotTesting_matchStoredSnapshot_screenshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) Test function timed out\n                FAIL!  : Testcases::test_SnapshotTesting_matchStoredSnapshot_screenshot(/home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml) Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 57 passed, 9 failed, 0 skipped, 0 blacklisted, 306356ms\n                ********* Finished testing of Testcases *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  7158 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430428976,
+        "stop" : 1544430428989,
+        "duration" : 13
+      }
+    } ]
+  },
+  "c6d1a312133d177de72289117771cd9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a58a7f406029b782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "927723df4129c9f24a0920037c0e60b2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cc504d9e050b55c",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.0, Qt 5.9.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 1ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b39c6e645afcffdf4c33ebc0a213cf87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da81a3284e5e126f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9899961f9a3403814bb05a4c0b6a58b9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e08cae55c9c692fa",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.7.1, Qt 5.7.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 4.9.1 20140922 (Red Hat 4.9.1-10))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 22ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430429001,
+        "stop" : 1544430429002,
+        "duration" : 1
+      }
+    } ]
+  },
+  "fb88816c100dee6b74dacb5d8502c9a2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4b30981f6e008b9",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-62666\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.2, Qt 5.9.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::QtBug62666::initTestCase()\n                QDEBUG : example::QtBug62666::test_case1() qml: case1\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4922 Segmentation fault      (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429014,
+        "stop" : 1544430429014,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8c50937404297fee2394de31ff93ae21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f903f6a3938aeee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429015,
+        "stop" : 1544430429015,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9a785b721d723ad5b96cb76aab4455fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb7e691599878921",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1583ce8dac8a6b1bba6650745a812c96" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e4af030a93fe03c",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 18ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430428939,
+        "stop" : 1544430428940,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a1ebd86e1778c40833f367f46d524a41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b02c4a5c68c02d4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428974,
+        "stop" : 1544430428974,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2c40bd1feee5b1ac30a93902059501ed" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39a20c2bdf6314e9",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2017/11/09 02:46:43 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.9.2/gcc_64/include/QtCore/QtCore:4:0,\n                                 from ../Qt/5.9.2/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.9.2/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/privateapitests.cpp:1:\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp: In member function void PrivateApiTests::test_QQmlMetaType():\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:982:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:990:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp:24:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                make: *** [privateapitests.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430429015,
+        "stop" : 1544430429016,
+        "duration" : 1
+      }
+    } ]
+  },
+  "793f79f49bf28c5458894a702bbf6451" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c13e9039bee50bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428959,
+        "stop" : 1544430428959,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9951b8168345ee547920df03e0442761" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28b42875b226dcc9",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.quikit has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.qmlshell has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.quikit@0.0.8\n                Installing net.efever.snapshottesting@0.0.15\n                Installing net.efever.qmlshell@0.0.2\n                QPM: 2018/03/04 15:16:24 WARNING: com.github.benlau.qtshell@0.4.5 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Cannot read /home/travis/build/benlau/qtreleasetests/sparkqml/lib/quikit/quikit.pri: No such file or directory\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.11.0/gcc_64/include/QtCore/QtCore:4:0,\n                                 from ../Qt/5.11.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.11.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/privateapitests.cpp:1:\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp: In member function void PrivateApiTests::test_QQmlMetaType():\n                ../Qt/5.11.0/gcc_64/include/QtCore/qglobal.h:1015:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.11.0/gcc_64/include/QtCore/qglobal.h:1023:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp:24:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                make: *** [privateapitests.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428975,
+        "stop" : 1544430428976,
+        "duration" : 1
+      }
+    } ]
+  },
+  "8698f7182cd5ec83c06bdbb8f2f63a9f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a24be995aa94e6e0",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-57640\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4628 Segmentation fault      (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5072178792bbc839beb8e6c4f61f9b12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89956a8a125ea9ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428973,
+        "stop" : 1544430428973,
+        "duration" : 0
+      }
+    } ]
+  },
+  "556673ef0b983e2cd2a8110e845d9b9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cbe2f7d4c3b11d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2f955fc859d2209867f47974454d1d33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f885ddee69b46eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428939,
+        "stop" : 1544430428939,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7892bf0ff3a5a39a2c70e62895b16b93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe63b7270a85dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cb3d356bdb96666fbd8fedf3a10bfa26" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2d6cd8c5f7edc59",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.12\n                Target executable: qreduxtests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qredux/tests/qreduxtests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428959,
+        "stop" : 1544430428960,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4c8f37c6d23f9bb5ded3fdd23e91b5ee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e51b7d9e3b4e91a8",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.4\n                Installing net.efever.aconcurrent@0.1.7\n                Installing net.efever.viewstack@0.0.1\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../sparkqml/tests/sparkqmltests/vendor/com/github/benlau/qsyncable/qstree.cpp: In function QDebug operator<<(QDebug, const QSTree&):\n                ../sparkqml/tests/sparkqmltests/vendor/com/github/benlau/qsyncable/qstree.cpp:436:9: warning: variable height set but not used [-Wunused-but-set-variable]\n                     int height = -1;\n                         ^\n                Build Completed\n                ********* Start testing of Tests *********\n                Config: Using QtTest library 5.9.0, Qt 5.9.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : Tests::initTestCase()\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_BoardLayout.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_BoxPackingFlow.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_BrowserPanel.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_ComponentViewer.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_ComponetCard.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_NavigationPanel.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_PathViewer.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_RecentFileList.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_UIBoxPackingFlow.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_UIFlow.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"/home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests/mockup/mockup_UIGrid.qml : Passed\"\n                QDEBUG : Tests::mockupLoadingTests() \"qrc:/main.qml : Passed\"\n                PASS   : Tests::mockupLoadingTests()\n                QDEBUG : Tests::MockupActor_createProject() :/sparkmockupproject/main.qml -> /home/travis/build/benlau/qtreleasetests/build/mockup_project/main.qml\n                QDEBUG : Tests::MockupActor_createProject() :/sparkmockupproject/sparkmockup.qmlproject -> /home/travis/build/benlau/qtreleasetests/build/mockup_project/sparkmockup.qmlproject\n                QDEBUG : Tests::MockupActor_createProject() (\"/home/travis/build/benlau/qtreleasetests/build/mockup_project\", \"/home/travis/build/benlau/qtreleasetests/build/mockup_project/main.qml\", \"/home/travis/build/benlau/qtreleasetests/build/mockup_project/sparkmockup.qmlproject\")\n                PASS   : Tests::MockupActor_createProject()\n                QDEBUG : Tests::QmlEngine_scanImagePath() Read QML_IMPORT_PATH from /home/travis/build/benlau/qtreleasetests/build/fakeproject/qmlimport.path\n                PASS   : Tests::QmlEngine_scanImagePath()\n                PASS   : Tests::QmlEngine_scanImagePath_withDefaultFile()\n                PASS   : Tests::test_QmlFileListModel_folder()\n                PASS   : Tests::test_QmlFileListModel_process()\n                PASS   : Tests::test_QmlFileListModel_options()\n                PASS   : Tests::test_parseEnvFile()\n                PASS   : Tests::test_SparkQML_walkToRoot()\n                PASS   : Tests::test_Dehydrator()\n                PASS   : Tests::cleanupTestCase()\n                Totals: 12 passed, 0 failed, 0 skipped, 0 blacklisted, 257ms\n                ********* Finished testing of Tests *********\n                ********* Start testing of HotLoaderTests *********\n                Config: Using QtTest library 5.9.0, Qt 5.9.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : HotLoaderTests::initTestCase()\n                QWARN  : HotLoaderTests::test_HotLoader_run() File not found: \"hotloader/1.txt\"\n                QDEBUG : HotLoaderTests::test_HotLoader_run() /home/travis/build/benlau/qtreleasetests/Qt/5.9/gcc_64/bin/rcc --binary /home/travis/build/benlau/qtreleasetests/sparkqml/tests/sparkqmltests//hotloadertests.qrc -o /home/travis/build/benlau/qtreleasetests/build/hotloadertests.rcc\n                QDEBUG : HotLoaderTests::test_HotLoader_run() Compiled\n                PASS   : HotLoaderTests::test_HotLoader_run()\n                QDEBUG : HotLoaderTests::test_HotLoader_mappedUrl() test_HotLoader_mappedUrl\n                PASS   : HotLoaderTests::test_HotLoader_mappedUrl()\n                PASS   : HotLoaderTests::cleanupTestCase()\n                Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 13ms\n                ********* Finished testing of HotLoaderTests *********\n                This plugin does not support createPlatformOpenGLContext!\n                Failed to create OpenGL context for format QSurfaceFormat(version 2.0, options QFlags<QSurfaceFormat::FormatOption>(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior QSurfaceFormat::SwapBehavior(DoubleBuffer), swapInterval 1, profile  QSurfaceFormat::OpenGLContextProfile(NoProfile)) \n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 38:  6918 Aborted                 (core dumped) QT_QPA_PLATFORM=minimal ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429029,
+        "duration" : 2
+      }
+    } ]
+  },
+  "9746d65bfc2bf202c4fe363f431d7841" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df5666f4a567257c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429015,
+        "stop" : 1544430429015,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d246fb1dfa645acb96fee94150560beb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59023a29a68d2517",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.21\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                Build Completed\n                ********* Start testing of Testcases *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : Testcases::initTestCase()\n                PASS   : Testcases::test_obtainQmlPackage()\n                PASS   : Testcases::test_obtainDynamicDefaultValues()\n                PASS   : Testcases::test_classNameToComponentName()\n                PASS   : Testcases::test_context()\n                PASS   : Testcases::test_loading_config()\n                \n                ========= Received signal, dumping stack ==============\n                ========= End of stack trace ==============\n                QFATAL : Testcases::test_grabImage() Test function timed out\n                FAIL!  : Testcases::test_grabImage() Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 6 passed, 1 failed, 0 skipped, 0 blacklisted, 300057ms\n                ********* Finished testing of Testcases *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  6828 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430428941,
+        "stop" : 1544430428942,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a0677187f7e80eea2f295374db73e177" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27b1fd2eb33df083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8b6eb5bec7134e47419075f053f67909" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2f55b25ba0d0287",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-56935\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                This plugin does not support createPlatformOpenGLContext!\n                Failed to create OpenGL context for format QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior 2, swapInterval 1, profile  0) \n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4550 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429001,
+        "stop" : 1544430429001,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b32e27e4c3a08d406dd64ee42f5d032c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a08a77bdd3f7ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428940,
+        "duration" : 0
+      }
+    } ]
+  },
+  "41a32f97353dd4fafb733e79191777fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e138806f748b297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428973,
+        "stop" : 1544430428973,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c94831c62de55fb1680919eba00f79c3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3367c546292af3",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                Start watchdog\n                Timeout. Watchdog kill current process\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 38:  4770 Killed                  QT_QPA_PLATFORM=minimal ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429026,
+        "stop" : 1544430429027,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ab726f365d69d3d8776473b0065b775f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18c2bb29d835fa5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429014,
+        "stop" : 1544430429014,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d1c251179d0f786cb4d8d4ddcf220fd5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5533c59fcd3aa2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429002,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a3c8a11639581072d63f1c984a90a6dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64c44b047519f9bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428959,
+        "stop" : 1544430428959,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d4778f41109dbbef1cdc9fba30853417" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd05a429fde57479",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429014,
+        "stop" : 1544430429014,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ecaf296eed112b383dba757835216afe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc2d24450b56d902",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                Start watchdog\n                Timeout. Watchdog kill current process\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4473 Killed                  ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429000,
+        "stop" : 1544430429001,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c58f416893e680212f378dc5d0b3731f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "508e929bfedbcdcb",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                Start watchdog\n                Timeout. Watchdog kill current process\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  4726 Killed                  ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430428935,
+        "stop" : 1544430428939,
+        "duration" : 4
+      }
+    } ]
+  },
+  "f656238579dbed34ac8d657535c2d98d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95d3decef38c97c3",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.quikit has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.qmlshell has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.5\n                Installing net.efever.aconcurrent@0.1.14\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.quikit@0.0.8\n                Installing net.efever.snapshottesting@0.0.24\n                Installing net.efever.qmlshell@0.0.2\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Cannot read /home/travis/build/benlau/qtreleasetests/sparkqml/lib/quikit/quikit.pri: No such file or directory\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428962,
+        "stop" : 1544430428964,
+        "duration" : 2
+      }
+    } ]
+  },
+  "60d086bb407bf0d1cfed6739cc7c00b5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9f80ab15b7454cb",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.22\n                Installing com.github.benlau.qtshell@0.4.5\n                Installing async.future.pri@0.3.6.5\n                Installing net.efever.aconcurrent@0.1.14\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../snapshottesting/tests/snapshottestingunittests/vendor/com/github/benlau/testable/automator.cpp:29:13: warning: bool hasMethods(QObject*, QStringList) defined but not used [-Wunused-function]\n                 static bool hasMethods(QObject* object, QStringList filters) {\n                             ^\n                ../snapshottesting/tests/snapshottestingunittests/vendor/com/github/benlau/testable/automator.cpp:73:13: warning: void invokeTestableCase(QQmlEngine*, QObject*, QStringList) defined but not used [-Wunused-function]\n                 static void invokeTestableCase(QQmlEngine* engine, QObject* object, QStringList filters) {\n                             ^\n                ../snapshottesting/snapshottesting.cpp:663:43: warning: unused parameter value [-Wunused-parameter]\n                     auto isQMetaObject = [](QJSValue value) {\n                                                           ^\n                ../snapshottesting/snapshottesting.cpp:663:43: warning: unused parameter value [-Wunused-parameter]\n                Build Completed\n                file:///home/travis/build/benlau/qtreleasetests/Qt/5.7/gcc_64/qml/QtQuick/Controls/Private/Style.qml:52: ReferenceError: __control is not defined\n                file:///home/travis/build/benlau/qtreleasetests/Qt/5.7/gcc_64/qml/QtQuick/Controls/Styles/Base/RadioButtonStyle.qml:79: ReferenceError: __control is not defined\n                ********* Start testing of Testcases *********\n                Config: Using QtTest library 5.7.1, Qt 5.7.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 4.9.1 20140922 (Red Hat 4.9.1-10))\n                PASS   : Testcases::initTestCase()\n                PASS   : Testcases::test_obtainQmlPackage()\n                PASS   : Testcases::test_obtainDynamicDefaultValues()\n                PASS   : Testcases::test_classNameToComponentName()\n                QDEBUG : Testcases::test_context() CustomButton (\"file:///home/travis/build/benlau/qtreleasetests/Qt/5.7/gcc_64/qml/QtQuick/Controls.2/Button.qml\", \"file:///home/travis/build/benlau/qtreleasetests/snapshottesting/tests/snapshottestingunittests/sample/CustomButton.qml\")\n                PASS   : Testcases::test_context()\n                PASS   : Testcases::test_loading_config()\n                QDEBUG : Testcases::test_grabImage() Skip this test in CI environment\n                PASS   : Testcases::test_grabImage()\n                QWARN  : Testcases::test_ScreenshotBrowser() This plugin does not support createPlatformOpenGLContext!\n                QFATAL : Testcases::test_ScreenshotBrowser() Failed to create OpenGL context for format QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior 2, swapInterval 1, profile  0) \n                FAIL!  : Testcases::test_ScreenshotBrowser() Received a fatal error.\n                   Loc: [Unknown file(0)]\n                Totals: 7 passed, 1 failed, 0 skipped, 0 blacklisted, 109ms\n                ********* Finished testing of Testcases *********\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  6656 Aborted                 (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430429004,
+        "stop" : 1544430429005,
+        "duration" : 1
+      }
+    } ]
+  },
+  "c723eb354ba39aef3ebf3e911a8cce5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a7fd6721359a32a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a62df2a43e0d334c792a2aa318630d76" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6306baf7ee04a31",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.12.0, Qt 5.12.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 5ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430428958,
+        "stop" : 1544430428959,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2fc6fa10d0e7dbec8e78b8574ee3ce9c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "506f2118075a0a4c",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2018/01/07 04:34:56 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp: In lambda function:\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp:552:52: error: class QJSValue has no member named isQMetaObject\n                                 if (jsValue.isQObject() || jsValue.isQMetaObject()) {\n                                                                    ^\n                make: *** [snapshottesting.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430429002,
+        "stop" : 1544430429003,
+        "duration" : 1
+      }
+    } ]
+  },
+  "5bb52b228267fc5dc67245a3bddccecc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c311fc4b813429b",
+      "status" : "failed",
+      "statusDetails" : "INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.testable@1.0.2.21\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Target executable: snapshottesting\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../snapshottesting/snapshottesting.cpp: In function const QQmlType* findQmlType(const QMetaObject*, bool):\n                ../snapshottesting/snapshottesting.cpp:110:15: error: no match for operator= (operand types are QList<QQmlType*> and QList<QQmlType>)\n                         types = QQmlMetaType::qmlAllTypes();\n                               ^\n                ../snapshottesting/snapshottesting.cpp:110:15: note: candidates are:\n                In file included from ../Qt/5.9.2/gcc_64/include/QtCore/qhash.h:46:0,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/qdebug.h:45,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/QDebug:1,\n                                 from ../snapshottesting/snapshottesting.cpp:1:\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:500:29: note: QList<T>& QList<T>::operator=(const QList<T>&) [with T = QQmlType*]\n                 Q_INLINE_TEMPLATE QList<T> &QList<T>::operator=(const QList<T> &l)\n                                             ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:500:29: note:   no known conversion for argument 1 from QList<QQmlType> to const QList<QQmlType*>&\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:158:19: note: QList<T>& QList<T>::operator=(QList<T>&&) [with T = QQmlType*]\n                     inline QList &operator=(QList<T> &&other) Q_DECL_NOTHROW\n                                   ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:158:19: note:   no known conversion for argument 1 from QList<QQmlType> to QList<QQmlType*>&&\n                ../snapshottesting/snapshottesting.cpp:112:15: error: no match for operator= (operand types are QList<QQmlType*> and QList<QQmlType>)\n                         types = QQmlMetaType::qmlTypes();\n                               ^\n                ../snapshottesting/snapshottesting.cpp:112:15: note: candidates are:\n                In file included from ../Qt/5.9.2/gcc_64/include/QtCore/qhash.h:46:0,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/qdebug.h:45,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/QDebug:1,\n                                 from ../snapshottesting/snapshottesting.cpp:1:\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:500:29: note: QList<T>& QList<T>::operator=(const QList<T>&) [with T = QQmlType*]\n                 Q_INLINE_TEMPLATE QList<T> &QList<T>::operator=(const QList<T> &l)\n                                             ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:500:29: note:   no known conversion for argument 1 from QList<QQmlType> to const QList<QQmlType*>&\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:158:19: note: QList<T>& QList<T>::operator=(QList<T>&&) [with T = QQmlType*]\n                     inline QList &operator=(QList<T> &&other) Q_DECL_NOTHROW\n                                   ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qlist.h:158:19: note:   no known conversion for argument 1 from QList<QQmlType> to QList<QQmlType*>&&\n                In file included from ../Qt/5.9.2/gcc_64/include/QtCore/qalgorithms.h:43:0,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/qdebug.h:44,\n                                 from ../Qt/5.9.2/gcc_64/include/QtCore/QDebug:1,\n                                 from ../snapshottesting/snapshottesting.cpp:1:\n                ../snapshottesting/snapshottesting.cpp: In function bool isPublicComponent(const QMetaObject*):\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:982:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:990:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../snapshottesting/snapshottesting.cpp:129:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                ../snapshottesting/snapshottesting.cpp: In function QString SnapshotTesting::Private::classNameToComponentName(const QString&):\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:982:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:990:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../snapshottesting/snapshottesting.cpp:159:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                ../snapshottesting/snapshottesting.cpp: In function QString SnapshotTesting::Private::obtainQmlPackage(QObject*):\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:982:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.9.2/gcc_64/include/QtCore/qglobal.h:990:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../snapshottesting/snapshottesting.cpp:1233:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlAllTypes()) {\n                     ^\n                make: *** [snapshottesting.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430429016,
+        "stop" : 1544430429018,
+        "duration" : 2
+      }
+    } ]
+  },
+  "14e61d2efb127a01f88d5a62042e567c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8b92b5a8dcd32cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430429027,
+        "stop" : 1544430429027,
+        "duration" : 0
+      }
+    } ]
+  },
+  "328437ba2ef21df592cb9e503a1ffc32" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2eb0af871d839d7a",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428956,
+        "stop" : 1544430428957,
+        "duration" : 1
+      }
+    } ]
+  },
+  "92250980abb65cd8ee2f5832ed38bd21" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a189a43a320376a",
+      "status" : "failed",
+      "statusDetails" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.9.2, Qt 5.9.2 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 4ms\n                ********* Finished testing of example *********\n                ",
+      "time" : {
+        "start" : 1544430429014,
+        "stop" : 1544430429014,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4ec4ae070aee038c2585e124f4634f1f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9576f8028c1baa9",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-56935\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qtbug-56935/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../qtbug-56935/main.cpp:2:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+      "time" : {
+        "start" : 1544430428957,
+        "stop" : 1544430428958,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3a36d10be6747b4bc043d62822aa1641" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6b923ebc1e313b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428974,
+        "stop" : 1544430428974,
+        "duration" : 0
+      }
+    } ]
+  },
+  "61521bad4c5ebe9b64922ca4ff040ea5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b6463eca8d49558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428940,
+        "stop" : 1544430428940,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7603d1e722148b7bf8ecc920f98cfc8c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f0148b6f25cdf6f",
+      "status" : "failed",
+      "statusDetails" : "Target executable: qtbug-57640\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-travis'\n                /home/travis/build/benlau/qtreleasetests/qtci/bin/run-unittests: line 65:  5076 Segmentation fault      (core dumped) ./$TARGET\n                ",
+      "time" : {
+        "start" : 1544430428973,
+        "stop" : 1544430428974,
+        "duration" : 1
+      }
+    } ]
+  },
+  "477c256d0c4d8653a4e5ca0685b0bf07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21828fbd998e2ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544430428975,
+        "stop" : 1544430428975,
+        "duration" : 0
+      }
+    } ]
+  }
+}

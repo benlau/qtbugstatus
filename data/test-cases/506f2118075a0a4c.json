@@ -1,0 +1,51 @@
+{
+  "uid" : "506f2118075a0a4c",
+  "name" : "SparkQML",
+  "fullName" : "Qt 5.7.SparkQML",
+  "historyId" : "2fc6fa10d0e7dbec8e78b8574ee3ce9c",
+  "time" : {
+    "start" : 1544430429002,
+    "stop" : 1544430429003,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2018/01/07 04:34:56 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp: In lambda function:\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp:552:52: error: class QJSValue has no member named isQMetaObject\n                                 if (jsValue.isQObject() || jsValue.isQMetaObject()) {\n                                                                    ^\n                make: *** [snapshottesting.o] Error 1\n                ",
+  "statusTrace" : "AssertionError: INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2018/01/07 04:34:56 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp: In lambda function:\n                ../sparkqml/tests/sparkqmltests/vendor/net/efever/snapshottesting/snapshottesting.cpp:552:52: error: class QJSValue has no member named isQMetaObject\n                                 if (jsValue.isQObject() || jsValue.isQMetaObject()) {\n                                                                    ^\n                make: *** [snapshottesting.o] Error 1\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "testMethod",
+    "value" : "SparkQML"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.7"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "506f2118075a0a4c.json",
+  "parameterValues" : [ ]
+}

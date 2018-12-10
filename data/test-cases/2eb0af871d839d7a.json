@@ -1,0 +1,51 @@
+{
+  "uid" : "2eb0af871d839d7a",
+  "name" : "QTBUG-49370 - Use Singleton object from other Singleton object within the same package will hang",
+  "fullName" : "Qt 5.12.0.QTBUG-49370 - Use Singleton object from other Singleton object within the same package will hang",
+  "historyId" : "328437ba2ef21df592cb9e503a1ffc32",
+  "time" : {
+    "start" : 1544430428956,
+    "stop" : 1544430428957,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                ",
+  "statusTrace" : "AssertionError: Target executable: qtbug-49370\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/qcborarray.h:43:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:37,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qcborvalue.h:74:25: warning: missing initializer for member QCborError::c [-Wmissing-field-initializers]\n                     QCborError error = {};\n                                         ^\n                In file included from ../Qt/5.12.0/gcc_64/include/QtCore/QtCore:64:0,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrentDepends:3,\n                                 from ../Qt/5.12.0/gcc_64/include/QtConcurrent/QtConcurrent:3,\n                                 from ../qtbug-49370/main.cpp:3:\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:165:61: error: redeclaration constexpr T qbswap(T) [with T = qfloat16] differs in constexpr\n                 template <> inline qfloat16 qbswap<qfloat16>(qfloat16 source)\n                                                                             ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = qfloat16]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:170:52: error: redeclaration constexpr T qbswap(T) [with T = float] differs in constexpr\n                 template <> inline float qbswap<float>(float source)\n                                                                    ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = float]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:175:55: error: redeclaration constexpr T qbswap(T) [with T = double] differs in constexpr\n                 template <> inline double qbswap<double>(double source)\n                                                                       ^\n                ../Qt/5.12.0/gcc_64/include/QtCore/qendian.h:96:42: error: from previous declaration constexpr T qbswap(T) [with T = double]\n                 template <typename T> Q_DECL_CONSTEXPR T qbswap(T source);\n                                                          ^\n                make: *** [main.o] Error 1\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-49370 - Use Singleton object from other Singleton object within the same package will hang"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2eb0af871d839d7a.json",
+  "parameterValues" : [ ]
+}

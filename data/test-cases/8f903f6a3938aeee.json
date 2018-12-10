@@ -1,0 +1,45 @@
+{
+  "uid" : "8f903f6a3938aeee",
+  "name" : "AsyncFuture",
+  "fullName" : "Qt 5.9.2.AsyncFuture",
+  "historyId" : "8c50937404297fee2394de31ff93ae21",
+  "time" : {
+    "start" : 1544430429015,
+    "stop" : 1544430429015,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "testMethod",
+    "value" : "AsyncFuture"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.9.2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f903f6a3938aeee.json",
+  "parameterValues" : [ ]
+}

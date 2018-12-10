@@ -1,0 +1,51 @@
+{
+  "uid" : "94ef89e951ef29d1",
+  "name" : "SparkQML",
+  "fullName" : "Qt 5.10.SparkQML",
+  "historyId" : "335f002619b230176afdedeb42908e3f",
+  "time" : {
+    "start" : 1544430428940,
+    "stop" : 1544430428941,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2017/11/13 12:41:55 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.10.0/gcc_64/include/QtCore/QtCore:4:0,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/privateapitests.cpp:1:\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp: In member function void PrivateApiTests::test_QQmlMetaType():\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:996:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:1004:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp:24:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                make: *** [privateapitests.o] Error 1\n                ",
+  "statusTrace" : "AssertionError: INFO: Package com.github.benlau.quickpromise has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickflux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.quickcross has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.testable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qsyncable has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qtshell has a different license (MIT) than it's dependant (NONE).\n                INFO: Package quick.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package font.awesome.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package com.github.benlau.qredux has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package async.future.pri has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.aconcurrent has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.viewstack has a different license (APACHE_2_0) than it's dependant (NONE).\n                INFO: Package net.efever.snapshottesting has a different license (APACHE_2_0) than it's dependant (NONE).\n                Installing com.github.benlau.quickpromise@1.0.3\n                Installing com.github.benlau.quickflux@1.0.5.4\n                Installing com.github.benlau.quickcross@1.0.2.20\n                Installing com.github.benlau.testable@1.0.2.15\n                Installing com.github.benlau.qsyncable@1.0.2.4\n                Installing com.github.benlau.qtshell@0.4.4\n                Installing com.github.benlau.qtshell@0.4.3\n                Installing quick.future.pri@1.0.0.0\n                Installing font.awesome.pri@1.0.0\n                Installing com.github.benlau.qredux@0.0.1\n                Installing async.future.pri@0.3.6.4\n                Installing net.efever.aconcurrent@0.1.13\n                Installing net.efever.viewstack@0.0.1\n                Installing net.efever.snapshottesting@0.0.15\n                QPM: 2017/11/13 12:41:55 WARNING: com.github.benlau.qtshell@0.4.4 is already a dependency. Replacing with version 0.4.3.\n                Target executable: sparkqmltests\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Project MESSAGE: This project is using private headers and will therefore be tied to this specific Qt module build version.\n                Project MESSAGE: Running this project against other versions of the Qt modules may crash at any arbitrary point.\n                Project MESSAGE: This is not a bug, but a result of using Qt internals. You have been warned!\n                Compiling...\n                In file included from ../Qt/5.10.0/gcc_64/include/QtCore/QtCore:4:0,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTestDepends:3,\n                                 from ../Qt/5.10.0/gcc_64/include/QtTest/QtTest:3,\n                                 from ../sparkqml/tests/sparkqmltests/privateapitests.cpp:1:\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp: In member function void PrivateApiTests::test_QQmlMetaType():\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:996:34: error: cannot convert const QQmlType to const QQmlType* in initialization\n                     for (variable = *_container_.i; _container_.control; _container_.control = 0)\n                                                  ^\n                ../Qt/5.10.0/gcc_64/include/QtCore/qglobal.h:1004:21: note: in expansion of macro Q_FOREACH\n                 #    define foreach Q_FOREACH\n                                     ^\n                ../sparkqml/tests/sparkqmltests/privateapitests.cpp:24:5: note: in expansion of macro foreach\n                     foreach (const QQmlType *ty, QQmlMetaType::qmlTypes()) {\n                     ^\n                make: *** [privateapitests.o] Error 1\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testMethod",
+    "value" : "SparkQML"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "94ef89e951ef29d1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "c13e9039bee50bfc",
+  "name" : "QTBUG-62666- JS  operator leads to segfaults on garbage collecton",
+  "fullName" : "Qt 5.12.0.QTBUG-62666- JS  operator leads to segfaults on garbage collecton",
+  "historyId" : "793f79f49bf28c5458894a702bbf6451",
+  "time" : {
+    "start" : 1544430428959,
+    "stop" : 1544430428959,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-62666- JS  operator leads to segfaults on garbage collecton"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.12.0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c13e9039bee50bfc.json",
+  "parameterValues" : [ ]
+}

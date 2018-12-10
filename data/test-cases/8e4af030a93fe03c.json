@@ -1,0 +1,51 @@
+{
+  "uid" : "8e4af030a93fe03c",
+  "name" : "QTBUG-57545 The result of Array.sort() is incorrect if shift() was called",
+  "fullName" : "Qt 5.10.QTBUG-57545 The result of Array.sort() is incorrect if shift() was called",
+  "historyId" : "1583ce8dac8a6b1bba6650745a812c96",
+  "time" : {
+    "start" : 1544430428939,
+    "stop" : 1544430428940,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 18ms\n                ********* Finished testing of example *********\n                ",
+  "statusTrace" : "AssertionError: Target executable: tst_qtbug57545test\n                Info: creating stash file /home/travis/build/benlau/qtreleasetests/build/.qmake.stash\n                Compiling...\n                Build Completed\n                ********* Start testing of example *********\n                Config: Using QtTest library 5.10.0, Qt 5.10.0 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 5.3.1 20160406 (Red Hat 5.3.1-6))\n                PASS   : example::Array::initTestCase()\n                FAIL!  : example::Array::test_condition1() Compared values are not the same\n                   Actual   (): [3,1]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(11)]\n                FAIL!  : example::Array::test_condition2() Compared values are not the same\n                   Actual   (): [2,3]\n                   Expected (): [1,3]\n                   Loc: [/home/travis/build/benlau/qtreleasetests/qtbug-57545/tst_Array.qml(18)]\n                PASS   : example::Array::cleanupTestCase()\n                Totals: 2 passed, 2 failed, 0 skipped, 0 blacklisted, 18ms\n                ********* Finished testing of example *********\n                \n                    at Context.<anonymous> (runner.js:22:36)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testClass",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "testMethod",
+    "value" : "QTBUG-57545 The result of Array.sort() is incorrect if shift() was called"
+  }, {
+    "name" : "package",
+    "value" : "Qt 5.10"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8e4af030a93fe03c.json",
+  "parameterValues" : [ ]
+}

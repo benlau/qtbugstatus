@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "c489e156d8749967cab1236af56cd694",
+    "name" : "Qt 5.12.0",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "d5f278bd50a24b5e2d14d5b8712ffbc2",
+    "name" : "Qt 5.7",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "2e25d0a92158a60a972b60e451cc0a6e",
+    "name" : "Qt 5.9.2",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "a9ba45c09f13d1da7406145ecbfa4f06",
+    "name" : "Qt 5.11",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "8b5deff521da2d3be0f1c67f78e1cee1",
+    "name" : "Qt 5.10",
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "b84e1884050e8e38495368d95712048f",
+    "name" : "Qt 5.9.0",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}
